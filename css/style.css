@@ -39,9 +39,44 @@ nav ul li {
     margin-left: 16px;
 }
 
+nav ul li a {
+    text-decoration: none;
+    color: #212529;
+}
+
+nav ul li a:hover {
+    color: #CD8987;
+}
 .card {
+    align-items: center;
+    border: none !important;
+}
+.card a {
     text-decoration: none;
     align-items: center;
+    color: #212529;
+}
+
+.card a:hover {
+    color: white;
+}
+
+.card p {
+    font-size: 70px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.button {
+    width: 40%;
+    background-color: #D4E4F0;
+    border-radius: 30px;
+    border: none;
+}
+
+.button a {
+    color: grey;
+    font-family: inherit;
+
 }
 
 .overlay {
@@ -90,6 +125,49 @@ nav ul li {
     margin-right: 20px;
     margin-left: 20px;
     width: 100wv;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    border: 2px #212529;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.form-group label {
+    margin-right: 15px;
+}
+
+.main-div {
+    text-align: center;
+    margin: 50px;
+}
+
+form {
+    display: flex;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 20px;
+    flex-direction: column;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+#message {
+    display: flex;
+}
+
+.submit-button {
+    width: 25%;
+    background-color: #D4E4F0;
+    border-radius: 30px;
+    border: none;
+}
+
+.contact-me {
+    display: flex;
+    justify-content: center;
 }
 
 footer {
